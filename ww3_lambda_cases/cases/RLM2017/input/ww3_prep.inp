@@ -1,0 +1,6 @@
+$ WAVEWATCH III Field preprocessor input file
+$ --------------------------------------------
+   'WND'  'LL'  T T
+-123.7803 -122.4075 67  37.8016  38.5920 39
+   'NAME' 3 1 '(I8,I7)' '(67F8.2)'
+   20 '../input/windfile'

@@ -1,0 +1,36 @@
+$ WAVEWATCH III Grid preprocessor input file
+$ ------------------------------------------
+  'HOMOGENEOUS SOURCE TERM TEST  '
+$  WRT **** default ( upper limit in f for better performance of the tail)
+$    1.07  0.02   66   36  0.
+$ DIA (max f 1 Hz)  ** default
+    1.07  0.02   59   36  0.
+$
+   F F F F F T
+  600.  600.  600. 15.
+$
+$
+$       Bbt          (cmss)^pwr    MTF powr    Lscle        MTF fac
+&SDSX SDSBBR=5e-03 SPMSS=0.5 SDSNMTF=1.5 SDSL =3.5e-05 SDSFACMTF=4.0e+02 / 
+$
+$ REMEMBER TO ENABLE TURB-WAVE DISS, AND CHECK DIAGONAL
+END OF NAMELISTS
+$
+  'RECT' T 'NONE'
+   3   3
+   1.  1.  1.E-2
+  -1. -1.  1.E-2
+$
+  -5. 5.75  10  -2500. 3 1 '(....)' 'UNIT' 'input'
+$
+   1  1  1
+   1  1  1
+   1  1  1
+$
+  10  1 1 '(....)' 'PART' 'input'
+$
+   0  0  F
+   0  0  F
+   0  0
+$
+   0. 0. 0. 0.  0

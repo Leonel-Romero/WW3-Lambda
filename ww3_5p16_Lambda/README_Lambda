@@ -1,0 +1,31 @@
+Lambda based energy dissipation due to wave breaking according to Romero 2019 (GRL - in review)
+By L. Romero (University of California, Santa Barbra)
+
+Model dissipation coded as STX (user defined slot), wind input corresponds to that by Ardhuin et al. 2010 (JPO) - ST4
+
+## code changes (besides Lambda based dissipation)
+
+Added relative winds capability to point output ww3_ounp.ftn
+( Original version of the model did not account for relative winds)
+
+# Ouput parameters : 
+
+# ww3_shel.inp and ww3_ounf.inp
+WCC: whitecap coverage (fractional)
+WVA: air entraiment rate (m/s)
+FDB: energy dissipation due to whitecaps (W/m^2)
+FOC: energy dissipation due to bottom induced breaking (W/m^2)
+# ww3_ounp.inp 
+lof: Lambda(f,\theta)  (s /[m rad])
+
+# Test cases from Romero 2019 with supporting MATLAB scripts can be found in: ww3_lambda_cases.tar.gz
+
+See: ww3_lambda_cases/cases/README
+
+Refer to model manual ww3.v5.16.pdf for details on the model 
+
+To install this version of the model:
+
+1) untar wwatch3.v5.16.model.tar (i.e.,  tar -xvf wwatch3.v5.16.model.tar)
+2) run script: install_ww3_loc  (i.e., ./install_ww3_loc) and follow the instructions
+

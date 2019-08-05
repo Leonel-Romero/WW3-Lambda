@@ -1,0 +1,6 @@
+$ WAVEWATCH III Field preprocessor input file
+$ --------------------------------------------
+   'CUR'  'LL'  T T
+-123.7811 -122.4083 67  37.7858  38.5762 39
+   'NAME' 3 1 '(I8,I7)' '(67F8.2)'
+   20 '../input/currfile'

@@ -1,0 +1,14 @@
+
+
+#run script does not output ust at points or src.txt files
+
+#./bin/run_test -s STX_MPI_RWND -o netcdf -n 40 -p mpiexec -w DIA_RWND /home/wci/ww3_5p16/ RLM2017 
+#./bin/run_test -s STX_MPI -o netcdf -n 40 -p mpiexec -w DIA /home/wci/ww3_5p16/ RLM2017 
+
+# WRT runs
+#./bin/run_test -s STX_WRT_MPI -o netcdf -n 40 -p mpiexec -w WRT /home/wci/ww3_5p16/ RLM2017 
+#./bin/run_test -s STX_WRT_RWND_MPI -o netcdf -n 40 -p mpiexec -w WRT_RNWD /home/wci/ww3_5p16/ RLM2017 
+
+
+
+

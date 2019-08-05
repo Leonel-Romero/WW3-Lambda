@@ -1,0 +1,29 @@
+
+## code changes (besides Lambda based dissipation)
+Added relative winds capability to point output ww3_ounp.ftn
+( Original version of the model did not account for relative winds)
+
+# Ouput parameters : 
+# ww3_shel.inp and ww3_ounf.inp
+WCC: whitecap coverage (fractional)
+WVA: air entraiment rate (m/s)
+# ww3_ounp.inp 
+lof: Lambda(f,\theta)  (s /[m rad])   
+--- see time_limited_runs/input/ww3_ounp_spec.inp (line 95 with extra T/F flag) 
+
+
+## Test cases in Romero (2019; GRL) ##
+#time-limited runs 
+script: run_time_limited
+To make run_time_limited executable type: chmod 700 run_time_limited
+Edit the script (run_time_limited) selecting the wind speeds and combination of source terms desired.
+
+# Romero, Lenain, and Melville 2017 
+script: run_RLM2017
+inputs and data for validation included in directory: RLM2017
+
+## supporting MATLAB scripts:
+The test cases include the following matlab scripts: 
+1) read and plot Lambda: plot_Loc.m, plot_Loc_cf_RLM17.m
+2) plot wcc: plot_whitecap_coverage_cf_RLM17.m
+3) script to compute Lambda(f) from a frequency spectrum: Lambda_Sds_f_offline.m
