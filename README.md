@@ -3,4 +3,4 @@
 # WW3-Lambda
 Wave breaking model within the framework of Phillips' Lambda implemented in WaveWatchIII.
 
-Romero 2019 - Geophysical Research Letters (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL083408)
+Romero, Leonel. 2019. “Distribution of Surface Wave Breaking Fronts.” Geophysical Research Letters, September, 2019GL083408. https://doi.org/10.1029/2019GL083408, url:agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL083408.
