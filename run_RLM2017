@@ -1,0 +1,15 @@
+
+# path to ww3
+export ww3=/glade/u/home/leromero/WW3-Lambda/ww3_5p16_Lambda/
+
+#run script does not output ust at points or src.txt files
+
+#./bin/run_test -s STX_MPI_RWND -o netcdf -n 40 -p mpiexec -w DIA_RWND $ww3 RLM2017 
+./bin/run_test -s STX_MPI -o netcdf -n 40 -p mpiexec -w DIA $ww3 RLM2017 
+
+#./bin/run_test -s STX_WRT_MPI -o netcdf -n 40 -p mpiexec -w WRT $ww3 RLM2017 
+#./bin/run_test -s STX_WRT_RWND_MPI -o netcdf -n 40 -p mpiexec -w WRT_RNWD $ww3 RLM2017 
+
+
+
+
